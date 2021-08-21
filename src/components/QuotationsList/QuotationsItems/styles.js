@@ -8,7 +8,8 @@ export const styles = StyleSheet.create({
     marginBottom: 15,
     flexDirection: 'row',
     alignItems: 'center',
-    padding: 20,
+    paddingVertical: 15,
+    paddingHorizontal: 30,
   },
   contextLeft: {
     width: '36%',
@@ -23,8 +24,8 @@ export const styles = StyleSheet.create({
     alignItems: 'center'
   },
   logBitcoin: {
-    width: 40,
-    height: 40,
+    width: 35,
+    height: 35,
     marginLeft: 2
   },
   dayCotation: {

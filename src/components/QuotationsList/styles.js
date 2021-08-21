@@ -5,7 +5,8 @@ export const styles = StyleSheet.create({
     width: '100%',
     flexDirection: 'row',
     paddingVertical: 15,
-    justifyContent: 'space-evenly'
+    justifyContent: 'space-evenly',
+    marginBottom: 10
   },
   buttonQuery: {
     width: 50,
