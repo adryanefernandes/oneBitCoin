@@ -53,6 +53,7 @@ function QuotationsList(props) {
           renderItem={({item}) => {
             return <QuotationsItems value={item.value} date={item.date}/>
           }}
+          keyExtractor={(item) => item.date}
         />
       </ScrollView>
     </Fragment>

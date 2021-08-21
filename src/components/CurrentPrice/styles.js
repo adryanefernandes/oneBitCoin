@@ -10,12 +10,12 @@ export const styles = StyleSheet.create({
     color: "#f4931b",
     fontSize: 32,
     fontWeight: 'bold',
-    paddingTop: 80,
+    paddingTop: 30,
   },
   textPrice: {
     color: '#fff',
     fontSize: 16,
     fontWeight: 'bold',
-
+    paddingBottom: 30
   }
 })
