@@ -8,17 +8,4 @@ export const styles = StyleSheet.create({
     justifyContent: 'space-evenly',
     marginBottom: 10
   },
-  buttonQuery: {
-    width: 50,
-    height: 30,
-    backgroundColor: "#f4931b",
-    borderRadius: 50,
-    alignItems:  'center',
-    justifyContent: 'center'
-  },
-  textButton: {
-    color: '#fff',
-    fontWeight: 'bold',
-    fontSize: 14,
-  }
 })
