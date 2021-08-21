@@ -14,7 +14,7 @@
 
 ### 💻 Deploy
 O deploy de aplicação pode ser consultado nesse link:
-https://expo.dev/artifacts/c7d2c412-54f5-4729-abac-6f26043d8bec
+https://expo.dev/artifacts/16a50ecc-a7fb-4127-b0e7-a4c404423900
 
 ## 📌 Sobre a aplicação
 A **oneBitCoin** é uma aplicação que mostra a cotação do bitcoin atual e passadas, utiliza da api https://api.coindesk.com.
