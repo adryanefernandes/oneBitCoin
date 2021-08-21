@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { StyleSheet, SafeAreaView, StatusBar } from 'react-native';
 import Main from './src/pages/Main';
 

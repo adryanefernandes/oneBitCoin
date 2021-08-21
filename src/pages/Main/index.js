@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, SafeAreaView, StatusBar } from 'react-native';
+import { View } from 'react-native';
 
 import CurrentPrice from '../../components/CurrentPrice';
 import HistoryGraphic from '../../components/HistoryGraphic';
@@ -8,6 +8,8 @@ import QuotationsList from '../../components/QuotationsList';
 import { getListCoins } from '../../requests/getListCoins'
 import { getPriceCoinsGraphic } from '../../requests/getPriceCoinsGraphic';
 import { url } from '../../requests/url'
+
+import { styles } from './styles'
 
 export default function Main() {
   const [coinsList, setCoinsList] = useState([])
@@ -42,7 +44,7 @@ export default function Main() {
   }, [updateData])
 
   return (
-    <SafeAreaView style={styles.container}>
+    <View style={styles.container} >
       <CurrentPrice lastContation={price} />
       <HistoryGraphic
         infoDaraGraphic={coinsGraphicList}
@@ -51,15 +53,6 @@ export default function Main() {
         filterDay={updateDay}
         listTransactions={coinsList}
       />
-    </SafeAreaView>
+    </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#000',
-    alignItems: 'center',
-    paddingTop: Platform.OS === "androind" ? 40 : 0,
-  },
-});

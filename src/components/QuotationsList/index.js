@@ -1,6 +1,6 @@
 import React from 'react'
 import { Fragment } from "react";
-import { ScrollView, Text, View, TouchableOpacity, FlatList } from "react-native";
+import { ScrollView, View, FlatList } from "react-native";
 
 import QuotationsItems from './QuotationsItems';
 import TimeButton from './TimeButton/index'

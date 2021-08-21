@@ -5,6 +5,7 @@ export const styles = StyleSheet.create({
     width: "100%",
     height: "auto",
     alignItems: 'center',
+    justifyContent: 'center'
   },
   currentPrice: {
     color: "#f4931b",
