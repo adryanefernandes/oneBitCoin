@@ -5,7 +5,7 @@ import { Text, View, Image } from "react-native";
 import { styles } from './styles'
 import iconBitcon from '../../../../assets/icon.png'
 
-function QuotationsItems() {
+function QuotationsItems(props) {
   return (
     <View style={styles.mainContent}>
       <View style={styles.contextLeft}>
@@ -14,12 +14,16 @@ function QuotationsItems() {
             source={iconBitcon}
             style={styles.logBitcoin}
           />
-          <Text style={styles.dayCotation}>21/08/2021</Text>
+          <Text style={styles.dayCotation}>
+            {props.date}
+          </Text>
         </View>
       </View>
 
       <View style={styles.contextRight}>
-        <Text style={styles.price}>$ 53331.052</Text>
+        <Text style={styles.price}>
+          $ {props.value}
+        </Text>
       </View>
 
     </View>
